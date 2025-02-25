@@ -2,7 +2,26 @@ class Demo
 {
 	public static void main(String args[])
 	{
-		int book=1;
+
+		int a=6;
+		int b=7;
+		if(a>b)
+		{
+			System.out.println("a is greater");
+		}
+		else if(b>a)
+		{
+			System.out.println("b is greater");
+		}
+		else
+		{
+			System.out.println("equal");
+		}
+
+
+
+
+		/*int book=1;
 		int days=43 ;
 		int bookprice=500;
 		int bookrentperday=10;
@@ -12,6 +31,7 @@ class Demo
 		 System.out.println(days*bookrentperday);
 		else if(days>=30)
 		 System.out.println(bookprice);
+		*/
 		
 		/*int a=40;
 		int b=50;
